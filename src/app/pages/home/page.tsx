@@ -1,7 +1,6 @@
 "use client"
 import React, {useEffect, useState } from 'react';
-import { Button, Col, DatePicker, DatePickerProps, Dropdown, DropdownProps, Flex, Input, Layout, Menu, MenuProps, Row, Select, Space, Spin } from 'antd';
-import { DownOutlined, PlusCircleFilled } from '@ant-design/icons';
+import { Col, Flex, Layout, Row } from 'antd';
 import styles from './Main.module.scss';
 import { useShedule } from '@/app/services/providers/sheduleProvider';
 import { GameResultsDto, SheduleDto } from '@/app/services/api';
