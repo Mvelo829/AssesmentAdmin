@@ -1,7 +1,7 @@
 import { MenuProps } from "antd";
 
 export const APP_CONFIG = {
-    apiBaseUrl: "http://assesmentapi-production.up.railway.app",
+    apiBaseUrl: "https://assesmentapi-production.up.railway.app",
   };
 
 export const formatDateTime = (date) => {
