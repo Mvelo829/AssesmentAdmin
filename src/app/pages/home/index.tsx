@@ -87,19 +87,19 @@ const App: React.FC = () => {
                             {
                                 toggleOption === 'Match Shedules' ? (
                                     <SheduleList
-                                        shedules={sheduleList}
+                                        shedules={shedules?.value}
                                         setSheduleList={setSheduleList}
                                         handleItemClick={handleSheduleItemSelect}
                                     />
                                 ) : toggleOption === 'Match Results' ? (
                                     <GameresultsList
-                                        gameresults={gameresultList}
+                                        gameresults={gameresults?.value}
                                         setGameresultList={setGameresultList}
                                         handleItemClick={handleItemSelect}
                                     />
                                 ) : (
                                     <ProfileList
-                                        profiles={profileList}
+                                        profiles={profileresults?.value}
                                         handleItemClick={() => { }}
                                     />
                                 )
